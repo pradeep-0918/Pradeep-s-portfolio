@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import resumePdf from "../img/resume.pdf";
+// using public /resume.pdf for static download link
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -54,7 +54,7 @@ export default function Header() {
           {/* Resume Download Button */}
           <div className="hidden md:block">
             <a
-              href={resumePdf}
+              href="/resume.pdf"
               download
               className="bg-gradient-to-r from-[#10B981] to-[#1E3A8A] text-white px-6 py-2 rounded-lg font-medium hover:shadow-lg hover:shadow-[#10B981]/25 transition-all duration-300"
               style={{ fontFamily: "Inter, sans-serif" }}

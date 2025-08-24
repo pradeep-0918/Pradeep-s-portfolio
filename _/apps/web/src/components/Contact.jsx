@@ -1,6 +1,5 @@
 import { Mail, Github, Linkedin, MapPin, Phone, Send, User, MessageSquare } from "lucide-react";
 import { useState } from "react";
-import resumePdf from "../img/resume.pdf";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -301,7 +300,7 @@ export default function Contact() {
                   LinkedIn
                 </a>
                 <a
-                  href={resumePdf}
+                  href="/resume.pdf"
                   download
                   className="flex items-center gap-2 bg-[#F59E0B]/20 hover:bg-[#F59E0B]/30 text-[#F59E0B] px-4 py-2 rounded-lg transition-all duration-300 border border-[#F59E0B]/30"
                   style={{ fontFamily: "Inter, sans-serif" }}
