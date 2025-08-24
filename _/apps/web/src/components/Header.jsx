@@ -88,7 +88,7 @@ export default function Header() {
                 </a>
               ))}
               <a
-                href="/resume.pdf"
+                href={resumePdf}
                 download
                 className="bg-gradient-to-r from-[#10B981] to-[#1E3A8A] text-white px-6 py-2 rounded-lg font-medium text-center mt-2"
                 style={{ fontFamily: "Inter, sans-serif" }}
