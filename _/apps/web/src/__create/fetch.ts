@@ -12,7 +12,9 @@ const safeStringify = (value: unknown) =>
 const postToParent = (level: string, text: string, extra: unknown) => {
   try {
     if (isBackend() || !window.parent || window.parent === window) {
-      ('level' in console ? console[level] : console.log)(text, extra);
+      // console may not have a typed index signature for arbitrary level strings;
+      // cast to any to safely call the method when present, otherwise fall back to console.log
+      ((console as any)[level] ?? console.log)(text, extra);
       return;
     }
     window.parent.postMessage(

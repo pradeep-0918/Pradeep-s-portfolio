@@ -15,3 +15,9 @@ declare module '@auth/create/react' {
 	import { SessionProvider } from '@auth/react';
 	export { SessionProvider };
 }
+
+// Allow importing .js files (used by react-router generated types)
+declare module "*.js" {
+	const value: any;
+	export default value;
+}
