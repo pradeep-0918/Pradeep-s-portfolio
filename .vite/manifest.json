@@ -1,0 +1,71 @@
+{
+  "_PolymorphicComponent-Dyl1YRC3.js": {
+    "file": "assets/PolymorphicComponent-Dyl1YRC3.js",
+    "name": "PolymorphicComponent",
+    "imports": [
+      "_chunk-PVWAREVJ-2U2JJ65I.js"
+    ]
+  },
+  "_chunk-PVWAREVJ-2U2JJ65I.js": {
+    "file": "assets/chunk-PVWAREVJ-2U2JJ65I.js",
+    "name": "chunk-PVWAREVJ"
+  },
+  "_index-maMmRWKB.js": {
+    "file": "assets/index-maMmRWKB.js",
+    "name": "index",
+    "imports": [
+      "_chunk-PVWAREVJ-2U2JJ65I.js"
+    ]
+  },
+  "node_modules/@react-router/dev/dist/config/defaults/entry.client.tsx": {
+    "file": "assets/entry.client-BER7ETrs.js",
+    "name": "entry.client",
+    "src": "node_modules/@react-router/dev/dist/config/defaults/entry.client.tsx",
+    "isEntry": true,
+    "imports": [
+      "_chunk-PVWAREVJ-2U2JJ65I.js",
+      "_index-maMmRWKB.js"
+    ]
+  },
+  "src/app/__create/not-found.tsx?__react-router-build-client-route": {
+    "file": "assets/not-found-i7taszKe.js",
+    "name": "not-found",
+    "src": "src/app/__create/not-found.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_PolymorphicComponent-Dyl1YRC3.js",
+      "_chunk-PVWAREVJ-2U2JJ65I.js"
+    ]
+  },
+  "src/app/page.jsx?__react-router-build-client-route": {
+    "file": "assets/page-CFb5JmKM.js",
+    "name": "page",
+    "src": "src/app/page.jsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_PolymorphicComponent-Dyl1YRC3.js",
+      "_chunk-PVWAREVJ-2U2JJ65I.js"
+    ],
+    "assets": [
+      "assets/Stylish Portrait with Floral Accents (1)-DSlSm8lo.png"
+    ]
+  },
+  "src/app/root.tsx?__react-router-build-client-route": {
+    "file": "assets/root-CjSjyYDF.js",
+    "name": "root",
+    "src": "src/app/root.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_PolymorphicComponent-Dyl1YRC3.js",
+      "_chunk-PVWAREVJ-2U2JJ65I.js",
+      "_index-maMmRWKB.js"
+    ],
+    "css": [
+      "assets/root-DiOBVmgd.css"
+    ]
+  },
+  "src/img/Stylish Portrait with Floral Accents (1).png": {
+    "file": "assets/Stylish Portrait with Floral Accents (1)-DSlSm8lo.png",
+    "src": "src/img/Stylish Portrait with Floral Accents (1).png"
+  }
+}
