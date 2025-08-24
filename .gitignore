@@ -1,0 +1,6 @@
+﻿node_modules/
+.env
+_/apps/mobile/caches/
+_/apps/mobile/caches/.metro-cache/
+dist/
+.vscode/
